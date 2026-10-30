@@ -1,0 +1,4 @@
+[2026-10-30 07:07:11,728] 8 root - INFO - The execution has started
+[2026-10-30 07:07:11,728] 36 root - INFO - Reading data from MongoDB
+[2026-10-30 07:07:11,728] 22 root - INFO - Reading MongoDB database started
+[2026-10-30 07:07:11,728] 17 root - INFO - Custom Exception

@@ -9,6 +9,7 @@ project_name = "mlproject"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
+    ".env"
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/components/data_ingestion.py",
