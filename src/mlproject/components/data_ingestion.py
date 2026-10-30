@@ -52,7 +52,7 @@ class DataIngestion:
             # Save raw data
             df.to_csv(
                 self.ingestion_config.raw_data_path,
-                index=False
+                index=False, header=True
             )
 
             # Split into train and test sets
@@ -65,13 +65,13 @@ class DataIngestion:
             # Save train data
             train_set.to_csv(
                 self.ingestion_config.train_data_path,
-                index=False
+                index=False, header=True
             )
 
             # Save test data
             test_set.to_csv(
                 self.ingestion_config.test_data_path,
-                index=False
+                index=False, header=True
             )
 
             logging.info("Data ingestion completed successfully")
