@@ -1,0 +1,11 @@
+[2026-10-30 21:01:46,006] 10 root - INFO - The execution has started
+[2026-10-30 21:01:46,006] 36 root - INFO - Reading data from MongoDB
+[2026-10-30 21:01:46,006] 26 root - INFO - Reading MongoDB database started
+[2026-10-30 21:01:46,026] 39 root - INFO - Connection Established
+[2026-10-30 21:01:46,042] 40 root - INFO - MongoDB data loaded successfully. Shape: (1001, 8)
+[2026-10-30 21:01:46,057] 77 root - INFO - Data ingestion completed successfully
+[2026-10-30 21:01:46,062] 83 root - INFO - Reading the train and test file
+[2026-10-30 21:01:46,062] 56 root - INFO - Categorical Columns : ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2026-10-30 21:01:46,062] 57 root - INFO - Numerical Columns: ['writing_score', 'reading_score']
+[2026-10-30 21:01:46,067] 98 root - INFO - Applying Preprocessing on trainijng and test dataframe
+[2026-10-30 21:01:46,102] 112 root - INFO - Saved preprocessing object

@@ -1,0 +1,7 @@
+[2026-10-30 20:59:35,135] 10 root - INFO - The execution has started
+[2026-10-30 20:59:35,135] 36 root - INFO - Reading data from MongoDB
+[2026-10-30 20:59:35,136] 26 root - INFO - Reading MongoDB database started
+[2026-10-30 20:59:35,178] 39 root - INFO - Connection Established
+[2026-10-30 20:59:35,210] 40 root - INFO - MongoDB data loaded successfully. Shape: (1001, 8)
+[2026-10-30 20:59:35,235] 77 root - INFO - Data ingestion completed successfully
+[2026-10-30 20:59:35,248] 22 root - INFO - Custom Exception
