@@ -77,14 +77,35 @@ class DataTransformation:
 
     def initiate_data_transformation(self, train_path, test_path):
         try:
+
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
+
+            target_column_name = "math_score"
+
+            print("Missing math_score in train:",
+                    train_df[target_column_name].isna().sum())
+
+            print("Missing math_score in test:",
+                    test_df[target_column_name].isna().sum())
+
+# Remove rows where the target is missing
+            train_df = train_df.dropna(subset=[target_column_name]).copy()
+            test_df = test_df.dropna(subset=[target_column_name]).copy()
+
+
+
+
+
+
+            # train_df = pd.read_csv(train_path)
+            # test_df = pd.read_csv(test_path)
 
             logging.info("Reading the train and test file")
 
             preprocessor_obj = self.get_data_transformer_object()
 
-            target_column_name = "math_score"
+            # target_column_name = "math_score"
             numerical_columns = ["writing_score", "reading_score"]
 
             ## Divide the test dataset to independent and dependent feature
